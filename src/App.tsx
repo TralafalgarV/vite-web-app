@@ -17,7 +17,7 @@ function App() {
         <DatePicker onChange={onChange} picker="week" />
         <DatePicker onChange={onChange} picker="month" />
         <DatePicker onChange={onChange} picker="quarter" />
-        <DatePicker onChange={onChange} picker="year" />
+        {/* <DatePicker onChange={onChange} picker="year" /> */}
   </Space>
       </header>
     </div>
