@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Input } from 'antd'
 import { IM, ChatMessage, ChatUserInfo } from '../../components/IM'
-import { Strophe } from 'strophe'
 import 'antd/dist/antd.less'
 
 const { TextArea } = Input

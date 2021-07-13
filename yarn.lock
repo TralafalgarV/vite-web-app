@@ -362,11 +362,6 @@
   "resolved" "https://registry.nlark.com/@types/scheduler/download/@types/scheduler-0.16.1.tgz"
   "version" "0.16.1"
 
-"@types/strophe@^1.2.32":
-  "integrity" "sha1-3pcxapqkPOUc6iHcEv9iDSjNWaI="
-  "resolved" "https://registry.nlark.com/@types/strophe/download/@types/strophe-1.2.32.tgz"
-  "version" "1.2.32"
-
 "@typescript-eslint/eslint-plugin@^4.28.2":
   "integrity" "sha1-eoMg8AFBZmgT0K5DtJ7oJE98+So="
   "resolved" "https://registry.nlark.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.28.2.tgz"
