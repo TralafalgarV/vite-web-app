@@ -68,13 +68,13 @@ export class IM {
     const elems = msg.getElementsByTagName('body')
     const delay = msg.getElementsByTagName('delay')
     const isNewMsg = !Boolean(delay && delay[0])
-    const time = delay && delay[0] ? delay[0].getAttribute('stamp') : moment().format()
+    const time = delay && delay[0] ? delay[0].attributes[1]?.textContent : moment().format()
     const content = elems.length > 0 ? `${elems[0].innerHTML}` : ''
     if (type == 'error') {
       return false
     }
     if (type == 'groupchat' && content) {
-      console.log('object', JSON.parse(content))
+      // console.log('object', JSON.parse(content))
       try {
         const JsonContent = JSON.parse(content)
         const other =
